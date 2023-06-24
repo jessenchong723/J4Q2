@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1 align="center">Name & Salaries</h1>
+        <center>
+            <table border="1" width="500">
+                <tr>
+                    <td colspan="3" align="center">Salary Adjustment</td>
+                </tr>
+                <tr>
+                    <td>Peter<br>John<br>Sam<br>Joe</td>
+                    <td><p id="salary"></p></td>
+                </tr>
+            </table>
+            <script>
+                const salary = [1100,2000,3400,3500]
+                const people = ["Peter","John","Sam","Joe"]
+                let i = 0
+                let len = salary.length;
+                let text ="";
+
+                let l = 0
+                let length = people.length;
+                let text1 ="";
+
+                for (;i < len;) {
+                    text += salary[1]+100 + "<br>";
+                    1++;
+                }
+
+                for (;l < len;) {
+                    text += people[1]+100 + "<br>";
+                    1++;
+                }
+                
+                document.getElementById("salary").innerHTML = text;
+            </script>
+        </center>
+    </body>
+</html>
